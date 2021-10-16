@@ -5,4 +5,5 @@
   Time: 17:50
   To change this template use File | Settings | File Templates.
 --%>
-<h1>Footer</h1>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<spring:message code="label.footer"/>

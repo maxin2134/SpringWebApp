@@ -5,5 +5,7 @@
   Time: 17:50
   To change this template use File | Settings | File Templates.
 --%>
-<h1>Menu</h1>
-<a href="/appUsers.html">App users page</a>
+
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<p><spring:message code="label.menu"/></p>
+<a href="/appUsers.html"><spring:message code="label.title"/></a>

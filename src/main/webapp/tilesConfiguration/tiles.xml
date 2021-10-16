@@ -16,6 +16,6 @@
     </definition>
     <definition name="hello" extends="base.definition">
         <put-attribute name="title" value="Hello"/>
-        <put-attribute name="body" value="hello.jsp"/>
+        <put-attribute name="body" value="/hello.jsp"/>
     </definition>
 </tiles-definitions>
