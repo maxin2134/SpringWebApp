@@ -17,6 +17,7 @@ public class HelloController {
         String formattedDate = dateFormat.format(date);
 
         model.addAttribute("serverTime", formattedDate);
-        return "hello";
+        final String hello = "hello";
+        return hello;
     }
 }
